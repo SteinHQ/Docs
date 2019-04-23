@@ -1,0 +1,28 @@
+{
+  "scripts": {
+    "examples": "docusaurus-examples",
+    "build:css": "./node_modules/.bin/tailwind build custom.tailwind.css -c tailwind.js -o ./static/css/custom.css",
+    "prestart": "yarn run build:css",
+    "watch:tailwind": "chokidar \"./custom.tailwind.css\" -c \"yarn run build:css\"",
+    "react-start": "react-scripts start",
+    "start": "npm-run-all --parallel docusaurus:start watch:tailwind",
+    "build": "docusaurus-build",
+    "docusaurus:start": "docusaurus-start",
+    "postbuild": "gulp",
+    "publish-gh-pages": "docusaurus-publish",
+    "write-translations": "docusaurus-write-translations",
+    "version": "docusaurus-version",
+    "rename-version": "docusaurus-rename-version"
+  },
+  "devDependencies": {
+    "chokidar-cli": "^1.2.2",
+    "docusaurus": "^1.8.1",
+    "docusaurus-init": "^2.0.0-alpha.5",
+    "gulp": "^4.0.1",
+    "gulp-postcss": "^8.0.0",
+    "npm-run-all": "^4.1.5",
+    "postcss-uncss": "^0.16.1",
+    "tailwindcss": "^0.7.4",
+    "uncss": "^0.16.2"
+  }
+}

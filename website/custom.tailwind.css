@@ -1,0 +1,85 @@
+@tailwind components;
+
+.mainContainer a {
+  text-decoration: underline;
+}
+
+.animated-text-link,
+.animated-text-link:visited {
+  text-decoration: none;
+  position: relative;
+}
+
+.animated-text-link:after,
+.animated-text-link:visited:after {
+  content: "";
+  height: 2px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  background: currentColor;
+  transition: width 0.1s ease;
+}
+
+.animated-text-link:hover:after,
+.animated-text-link:visited:hover:after {
+  width: 100%;
+}
+
+@tailwind utilities;
+
+.container {
+  @apply max-w-full;
+}
+
+.fixedHeaderContainer a {
+  align-items: center;
+}
+
+.fixedHeaderContainer {
+  @apply bg-primary;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+}
+
+.fixedHeaderContainer header img {
+  height: 1.5rem;
+}
+
+.navigationSlider .slidingNav ul {
+  margin-top: 74px;
+}
+
+.fixedHeaderContainer header .headerTitleWithLogo {
+  display:none;
+}
+
+.onPageNav {
+  padding-top: 34px;
+}
+
+.navigationSlider .slidingNav ul li > a:focus,
+.navigationSlider .slidingNav ul li > a:hover,
+.navigationSlider .slidingNav ul li.siteNavItemActive > a,
+.navigationSlider .slidingNav ul li.siteNavGroupActive > a {
+  @apply bg-primary;
+}
+
+.navPusher {
+  padding-top: 124px;
+}
+
+.mainContainer {
+  padding: 3rem 0;
+}
+
+@media screen and (min-width: 1024px) {
+  .navPusher {
+    padding-top: 76px;
+  }
+
+  .navigationSlider .slidingNav ul {
+    margin-top: auto;
+  }
+}
