@@ -52,11 +52,15 @@
 }
 
 .fixedHeaderContainer header .headerTitleWithLogo {
-  display:none;
+  display: none;
 }
 
 .onPageNav {
   padding-top: 34px;
+}
+
+.docMainWrapper .wrapper {
+  padding-top: 1rem;
 }
 
 .navigationSlider .slidingNav ul li > a:focus,
@@ -81,5 +85,9 @@
 
   .navigationSlider .slidingNav ul {
     margin-top: auto;
+  }
+
+  .docMainWrapper .wrapper {
+    padding-top: 0;
   }
 }

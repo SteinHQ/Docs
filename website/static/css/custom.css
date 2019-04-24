@@ -6003,6 +6003,10 @@
   padding-top: 34px;
 }
 
+.docMainWrapper .wrapper {
+  padding-top: 1rem;
+}
+
 .navigationSlider .slidingNav ul li > a:focus,
 .navigationSlider .slidingNav ul li > a:hover,
 .navigationSlider .slidingNav ul li.siteNavItemActive > a,
@@ -6025,6 +6029,10 @@
 
   .navigationSlider .slidingNav ul {
     margin-top: auto;
+  }
+
+  .docMainWrapper .wrapper {
+    padding-top: 0;
   }
 }
 

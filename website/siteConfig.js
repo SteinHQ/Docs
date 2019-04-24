@@ -30,7 +30,7 @@ const siteConfig = {
   // users,
 
   /* path to images for header/footer */
-  headerIcon: "img/Stein.svg",
+  headerIcon: "img/Stein Docs.svg",
   footerIcon: "img/Stein.svg",
   favicon: "img/favicon.png",
   docsUrl: "",
