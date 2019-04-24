@@ -1,5 +1,13 @@
 {
   "docs": {
-    "Getting Started": ["getting-started", "create-api"]
+    "Getting Started": [
+      "introduction",
+      "create-api",
+      "read-data",
+      "search-data",
+      "add-rows",
+      "update-rows",
+      "delete-rows"
+    ]
   }
 }

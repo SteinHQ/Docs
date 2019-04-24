@@ -21,7 +21,7 @@ const siteConfig = {
 
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
-    { doc: "create-api", label: "Docs" },
+    { doc: "introduction", label: "Docs" },
     // { blog: true, label: "Blog" },
     { href: 'https://github.com/steinhq/', label: 'GitHub' }
   ],
@@ -70,7 +70,7 @@ const siteConfig = {
   },
 
   // Add custom scripts here that would be placed in <script> tags.
-  scripts: ["https://buttons.github.io/buttons.js"],
+  scripts: [],
 
   // On page navigation for the current documentation page.
   onPageNav: "separate",
