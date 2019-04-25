@@ -3,11 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="303869e9-417e-4930-99ed-b22145b59e4f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/create-api.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/create-api.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/introduction.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/introduction.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/read-data.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/read-data.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/website/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/siteConfig.js" beforeDir="false" afterPath="$PROJECT_DIR$/website/siteConfig.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/search-data.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/search-data.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/website/node_modules/" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -21,36 +17,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docs/create-api.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="163">
-                <caret line="14" column="121" lean-forward="true" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="121" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/docs/read-data.md">
+        <entry file="file://$PROJECT_DIR$/docs/search-data.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="276">
-                <caret line="16" column="166" selection-start-line="16" selection-start-column="166" selection-end-line="16" selection-end-column="166" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docs/introduction.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="301">
-                <caret line="15" column="178" lean-forward="true" selection-start-line="15" selection-start-column="178" selection-end-line="15" selection-end-column="178" />
+              <first_editor relative-caret-position="391">
+                <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
               </first_editor>
               <second_editor />
             </state>
@@ -104,7 +76,6 @@
         <option value="$PROJECT_DIR$/docs/search-data-in-sheet.md" />
         <option value="$PROJECT_DIR$/docs/read-data-from-sheet.md" />
         <option value="$PROJECT_DIR$/docs/read-sheet-data.md" />
-        <option value="$PROJECT_DIR$/docs/search-data.md" />
         <option value="$PROJECT_DIR$/docs/add-rows.md" />
         <option value="$PROJECT_DIR$/docs/update-rows.md" />
         <option value="$PROJECT_DIR$/docs/delete-rows.md" />
@@ -116,6 +87,7 @@
         <option value="$PROJECT_DIR$/docs/introduction.md" />
         <option value="$PROJECT_DIR$/docs/create-api.md" />
         <option value="$PROJECT_DIR$/docs/read-data.md" />
+        <option value="$PROJECT_DIR$/docs/search-data.md" />
       </list>
     </option>
   </component>
@@ -132,6 +104,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -172,7 +145,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -221,7 +193,8 @@
       <workItem from="1556002330967" duration="19823000" />
       <workItem from="1556090014985" duration="2424000" />
       <workItem from="1556117370156" duration="12423000" />
-      <workItem from="1556168250353" duration="8309000" />
+      <workItem from="1556168250353" duration="10079000" />
+      <workItem from="1556196108855" duration="926000" />
     </task>
     <task id="LOCAL-00001" summary="Created getting started doc files">
       <created>1556093480074</created>
@@ -244,11 +217,18 @@
       <option name="project" value="LOCAL" />
       <updated>1556139545457</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Made minor improvements to create-api, and introduction docs, created read-data docs.">
+      <created>1556176797250</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1556176797251</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42979000" />
+    <option name="totallyTimeSpent" value="45675000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -264,7 +244,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.20684524" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.20684524" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="1" sideWeight="0.4985119" weight="0.32991454" />
@@ -289,7 +269,8 @@
     <MESSAGE value="Created getting started doc files" />
     <MESSAGE value="Changed docs logo, added 'Introduction &amp; Core Concepts' and 'Hosting' docs" />
     <MESSAGE value="Created 'Create API' docs" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created 'Create API' docs" />
+    <MESSAGE value="Made minor improvements to create-api, and introduction docs, created read-data docs." />
+    <option name="LAST_COMMIT_MESSAGE" value="Made minor improvements to create-api, and introduction docs, created read-data docs." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/docs/doc2.md" />
@@ -343,16 +324,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
           <caret line="11" column="39" lean-forward="true" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/search-data.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="115">
-            <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
-          </first_editor>
-          <second_editor />
         </state>
       </provider>
     </entry>
@@ -428,16 +399,6 @@
     <entry file="file://$PROJECT_DIR$/docs/assets/prepared-sheet.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/introduction.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="301">
-            <caret line="15" column="178" lean-forward="true" selection-start-line="15" selection-start-column="178" selection-end-line="15" selection-end-column="178" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/website/siteConfig.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="271">
@@ -448,11 +409,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/docs/introduction.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="301">
+            <caret line="15" column="178" lean-forward="true" selection-start-line="15" selection-start-column="178" selection-end-line="15" selection-end-column="178" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/docs/create-api.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="163">
-            <caret line="14" column="121" lean-forward="true" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="121" />
+          <first_editor relative-caret-position="391">
+            <caret line="14" column="69" lean-forward="true" selection-start-line="14" selection-start-column="69" selection-end-line="14" selection-end-column="69" />
           </first_editor>
           <second_editor />
         </state>
@@ -461,8 +432,18 @@
     <entry file="file://$PROJECT_DIR$/docs/read-data.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="276">
-            <caret line="16" column="166" selection-start-line="16" selection-start-column="166" selection-end-line="16" selection-end-column="166" />
+          <first_editor relative-caret-position="370">
+            <caret line="37" selection-start-line="37" selection-end-line="37" selection-end-column="66" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/search-data.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="391">
+            <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
           </first_editor>
           <second_editor />
         </state>
