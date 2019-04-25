@@ -9,6 +9,13 @@
       "update-rows",
       "delete-rows",
       "hosting"
+    ],
+    "Stein Expedite": [
+      "expedite-introduction",
+      "expedite-installation",
+      "expedite-display-data",
+      "expedite-search-data",
+      "expedite-connect-forms"
     ]
   }
 }

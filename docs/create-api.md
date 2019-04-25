@@ -28,6 +28,7 @@ https://docs.google.com/spreadsheets/d/13Bc-RY9pOviWvZ7V7CHvuC8QjCqW73guBPk2WxXT
 ```
 
 ## Create an API
+Start by signing up for [Stein](https://steinhq.com).
 
 After you sign up, you'll be prompted for your sheet's URL. The sheet will be used for creating your first API. Paste the URL to get started with Stein.
 
