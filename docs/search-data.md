@@ -5,9 +5,11 @@ title: Search for Data
 
 You can also search for specific records in your sheets.
 
-## Creating the _search_ object
+## Structuring the _search_ query
 
 Form a JSON string with your <span class="bg-accent">search options mapped as `{column: value, ...}`. Pass it as the _search_ param to a `GET` request to your sheet's API URL.</span>
+
+## Performing the request
 
 Let's search for posts by _Shiven Sinha_ in our [_Blog Posts_ Sheet](https://docs.google.com/spreadsheets/d/13Bc-RY9pOviWvZ7V7CHvuC8QjCqW73guBPk2WxXT0DM/edit#gid=0).
 
