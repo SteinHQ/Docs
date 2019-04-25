@@ -12,6 +12,7 @@ The **most efficient and easy way** to deploy a production-ready instance of Ste
 To get started, sign up at the [Stein website](https://steinhq.com).
 
 ## Self-hosted
+
 Stein is fully open source. You may customise it to your needs, determine your functionality, and host it yourself.
 
 The option for self hosting is currently under active development, and will be available soon! As a beta tester, you'll be the first to try it.

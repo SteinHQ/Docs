@@ -3,7 +3,7 @@ id: add-rows
 title: Add Rows to Sheet
 ---
 
-<span class="bg-accent">Send a JSON object via a `POST` request</span> to your sheet's API URL to add data to your sheet.
+Send a <span class="bg-accent">JSON object via a `POST` request</span> to your sheet's API URL to add data to your sheet.
 
 ## Structuring the JSON
 
