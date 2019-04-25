@@ -23,7 +23,7 @@ const siteConfig = {
   headerLinks: [
     { doc: "introduction", label: "Docs" },
     // { blog: true, label: "Blog" },
-    { href: 'https://github.com/steinhq/', label: 'GitHub' }
+    { href: "https://github.com/steinhq/", label: "GitHub" }
   ],
 
   // If you have users set above, you add it here:
@@ -68,6 +68,11 @@ const siteConfig = {
     // Highlight.js theme to use for syntax highlighting in code blocks.
     theme: "default"
   },
+
+  markdownPlugins: [
+    // Highlight admonitions.
+    require("remarkable-admonitions")({ icon: "svg-inline" })
+  ],
 
   // Add custom scripts here that would be placed in <script> tags.
   scripts: [],
