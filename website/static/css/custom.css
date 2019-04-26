@@ -6023,6 +6023,10 @@
 }
 
 @media screen and (min-width: 1024px) {
+  .mainContainer {
+    padding: 40px 0;
+  }
+
   .navPusher {
     padding-top: 76px;
   }

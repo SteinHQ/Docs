@@ -4,7 +4,7 @@
 // List of projects/orgs using your project for the users page.
 
 const siteConfig = {
-  title: "Docs", // Title for your website.
+  title: "Stein Docs", // Title for your website.
   tagline: "Official documentation for the Stein suite",
   url: "https://docs.steinhq.com", // Your website URL
   baseUrl: "/", // Base URL for your project */

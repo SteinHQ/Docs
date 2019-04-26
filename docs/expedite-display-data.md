@@ -11,9 +11,9 @@ Now that you have installed Expedite on your website, you can display data from 
 
 ## Example
 
-We want to display the list of blog post summaries from [this Google Sheet](https://docs.google.com/spreadsheets/d/13Bc-RY9pOviWvZ7V7CHvuC8QjCqW73guBPk2WxXT0DM/edit#gid=0).
+Let's display the list of blog post summaries from [this Google Sheet](https://docs.google.com/spreadsheets/d/13Bc-RY9pOviWvZ7V7CHvuC8QjCqW73guBPk2WxXT0DM/edit#gid=0).
 
-So we create an HTML structure as such:
+The following HTML structure helps us with this.
 
 ```html
 <!--- Replace the data-stein-url value with your API URL --->
