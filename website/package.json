@@ -8,7 +8,7 @@
     "start": "npm-run-all --parallel docusaurus:start watch:tailwind",
     "build": "docusaurus-build",
     "docusaurus:start": "docusaurus-start",
-    "postbuild": "gulp",
+    "prebuild": "gulp",
     "publish-gh-pages": "docusaurus-publish",
     "write-translations": "docusaurus-write-translations",
     "version": "docusaurus-version",

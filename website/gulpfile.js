@@ -5,8 +5,8 @@ const gulp = require("gulp"),
 gulp.task("default", function() {
   const plugins = [
     uncss({
-      html: ["http://localhost:3000/"],
-      ignore: []
+      html: ["http://localhost:3000/introduction"],
+      ignore: [".bg-accent"]
     })
   ];
 
