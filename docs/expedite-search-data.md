@@ -17,7 +17,7 @@ We'd structure the HTML the same way we did for [displaying the entire sheet](ex
 
 Here's the updated HTML.
 
-```html
+```handlebars
 <!-- Filter blog posts by author name -->
 <!-- Make sure to use double quotes in JSON strings -->
 <div

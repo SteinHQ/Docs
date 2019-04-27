@@ -8,6 +8,7 @@
       "add-rows",
       "update-rows",
       "delete-rows",
+      "authentication",
       "hosting"
     ],
     "Stein Expedite": [

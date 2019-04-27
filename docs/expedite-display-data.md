@@ -15,7 +15,7 @@ Let's display the list of blog post summaries from [this Google Sheet](https://d
 
 The following HTML structure helps us with this.
 
-```html
+```handlebars
 <!--- Replace the data-stein-url value with your API URL --->
 <div
   data-stein-url="http://api.steinhq.com/v1/storages/5cc158079ec99a2f484dcb40/Sheet1"
