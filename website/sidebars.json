@@ -10,13 +10,6 @@
       "delete-rows",
       "authentication",
       "hosting"
-    ],
-    "Stein Expedite": [
-      "expedite-introduction",
-      "expedite-installation",
-      "expedite-display-data",
-      "expedite-search-data",
-      "expedite-connect-forms"
     ]
   }
 }
