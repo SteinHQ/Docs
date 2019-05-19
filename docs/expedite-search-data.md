@@ -9,6 +9,8 @@ First, structure your HTML the same way you would for [displaying data](expedite
 
 Next, <span class="bg-accent">set the `data-stein-search` attribute of the container to fetch and show only the matching results.</span> Use a JSON string representing the search conditions as its value.
 
+You can additionally limit and offset your results. Refer to [this section](expedite-display-data.md#optional-parameters).
+
 ## Example
 
 Let's display all posts by Shiven Sinha from our [_Blog Posts_ Sheet](https://docs.google.com/spreadsheets/d/13Bc-RY9pOviWvZ7V7CHvuC8QjCqW73guBPk2WxXT0DM/edit#gid=0).
