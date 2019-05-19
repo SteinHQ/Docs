@@ -47,6 +47,8 @@ const siteConfig = {
     algoliaOptions: {} // Optional, if provided by Algolia
   },*/
 
+  gaTrackingId: "UA-69629389-7",
+
   /* Custom fonts for website */
   /*
   fonts: {
