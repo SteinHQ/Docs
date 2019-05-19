@@ -3,14 +3,6 @@
 
 // List of projects/orgs using your project for the users page.
 
-/*"Stein Expedite": [
-      "expedite-introduction",
-      "expedite-installation",
-      "expedite-display-data",
-      "expedite-search-data",
-      "expedite-connect-forms"
-    ]*/
-
 const siteConfig = {
   title: "Stein Docs", // Title for your website.
   tagline: "Official documentation for the Stein suite",
