@@ -1,42 +1,44 @@
 const React = require("react");
 
 const mainLinks = {
-    Documentation: "",
-    Guides: "",
-    "Open Source": "",
-    Pricing: "",
-    Sponsorships: ""
+    Documentation: "/",
+    "Open Source": "https://github.com/SteinHQ",
+    Pricing: "https://beta.steinhq.com/pricing",
+    Partners: ""
   },
   secondaryLinks = {
-    "Privacy Policy": "",
-    "Terms of Service": "",
-    Credits: ""
+    "Privacy Policy": "https://beta.steinhq.com/privacy-policy",
+    "Terms of Service": "https://beta.steinhq.com/terms-of-service"
   };
 
 const mainLinkElements = [],
   secondaryLinkElements = [];
 
-Object.keys(mainLinks).forEach(name => {
-  mainLinkElements.push(
-    <a
-      className="text-white hover:text-white mr-5 animated-text-link"
-      href={mainLinks[name]}
-      key={name}
-    >
+function generateLinkElement(name, value, classes) {
+  return (
+    <a className={classes} href={value} key={name}>
       {name}
     </a>
+  );
+}
+
+Object.keys(mainLinks).forEach(name => {
+  mainLinkElements.push(
+    generateLinkElement(
+      name,
+      mainLinks[name],
+      "text-white mr-5 animated-text-link hover:text-bluelink"
+    )
   );
 });
 
 Object.keys(secondaryLinks).forEach(name => {
   secondaryLinkElements.push(
-    <a
-      className="text-greengreytext hover:text-greengreytext mr-5 animated-text-link text-sm"
-      href={secondaryLinks[name]}
-      key={name}
-    >
-      {name}
-    </a>
+    generateLinkElement(
+      name,
+      secondaryLinks[name],
+      "text-greengreytext mr-5 animated-text-link text-sm hover:text-bluelink"
+    )
   );
 });
 
@@ -44,7 +46,9 @@ const Footer = () => {
   return (
     <>
       <div className="bg-primary pt-12 pb-4 px-8 sm:px-16 md:px-20 mt-16 pin-b w-full">
-        <img src="img/Stein.svg" alt="Stein Logo" className="h-8" />
+        <a href="https://steinhq.com">
+          <img src="img/Stein.svg" alt="Stein Logo" className="h-8" />
+        </a>
         <div className="mt-5 leading-loose sm:leading-normal">
           {mainLinkElements}
         </div>

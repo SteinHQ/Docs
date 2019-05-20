@@ -8,18 +8,13 @@
 .animated-text-link:visited {
   text-decoration: none;
   position: relative;
+  transition: border-color 0.15s ease;
+  border-bottom: solid 2px transparent;
 }
 
-.animated-text-link:after,
-.animated-text-link:visited:after {
-  content: "";
-  height: 2px;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 0;
-  background: currentColor;
-  transition: width 0.1s ease;
+.animated-text-link:hover,
+.animated-text-link:visited:hover {
+  border-bottom-color: currentColor;
 }
 
 .animated-text-link:hover:after,

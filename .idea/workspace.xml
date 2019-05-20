@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="303869e9-417e-4930-99ed-b22145b59e4f" name="Default Changelist" comment="">
+    <list default="true" id="303869e9-417e-4930-99ed-b22145b59e4f" name="Default Changelist" comment="Added gaTrackingCode to siteConfig">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/siteConfig.js" beforeDir="false" afterPath="$PROJECT_DIR$/website/siteConfig.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/core/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/website/core/Footer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/custom.tailwind.css" beforeDir="false" afterPath="$PROJECT_DIR$/website/custom.tailwind.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/static/css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/website/static/css/custom.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/website/node_modules/" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -17,14 +19,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/website/siteConfig.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-796">
-              <caret line="49" column="30" selection-start-line="49" selection-start-column="30" selection-end-line="49" selection-end-column="30" />
+            <state relative-caret-position="262">
+              <caret line="95" selection-start-line="95" selection-end-line="95" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/website/core/Footer.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="828">
+              <caret line="36" column="24" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -54,6 +65,9 @@
       <find>trna</find>
       <find>onPageN</find>
       <find>gaTr</find>
+      <find>a</find>
+      <find>a {</find>
+      <find>hover</find>
     </findStrings>
     <replaceStrings>
       <replace>props</replace>
@@ -79,7 +93,6 @@
         <option value="$PROJECT_DIR$/docs/search-data-in-sheet.md" />
         <option value="$PROJECT_DIR$/docs/read-data-from-sheet.md" />
         <option value="$PROJECT_DIR$/docs/read-sheet-data.md" />
-        <option value="$PROJECT_DIR$/website/core/Footer.js" />
         <option value="$PROJECT_DIR$/docs/read-data.md" />
         <option value="$PROJECT_DIR$/docs/add-rows.md" />
         <option value="$PROJECT_DIR$/docs/hosting.md" />
@@ -91,7 +104,6 @@
         <option value="$PROJECT_DIR$/website/package.json" />
         <option value="$PROJECT_DIR$/docs/authentication.md" />
         <option value="$PROJECT_DIR$/docs/introduction.md" />
-        <option value="$PROJECT_DIR$/website/custom.tailwind.css" />
         <option value="$PROJECT_DIR$/website/gulpfile.js" />
         <option value="$PROJECT_DIR$/website/sidebars.json" />
         <option value="$PROJECT_DIR$/docs/expedite-installation.md" />
@@ -99,14 +111,16 @@
         <option value="$PROJECT_DIR$/docs/expedite-display-data.md" />
         <option value="$PROJECT_DIR$/docs/expedite-connect-forms.md" />
         <option value="$PROJECT_DIR$/website/siteConfig.js" />
+        <option value="$PROJECT_DIR$/website/custom.tailwind.css" />
+        <option value="$PROJECT_DIR$/website/core/Footer.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="800" />
-    <option name="height" value="788" />
+    <option name="x" value="633" />
+    <option name="y" value="35" />
+    <option name="width" value="697" />
+    <option name="height" value="735" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -116,6 +130,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -128,11 +143,29 @@
               <item name="stein-docs" type="462c0819:PsiDirectoryNode" />
               <item name="website" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="stein-docs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="stein-docs" type="462c0819:PsiDirectoryNode" />
+              <item name="website" type="462c0819:PsiDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="stein-docs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="stein-docs" type="462c0819:PsiDirectoryNode" />
+              <item name="website" type="462c0819:PsiDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+              <item name="stein-docs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="stein-docs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="stein-docs" type="462c0819:PsiDirectoryNode" />
+              <item name="website" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -196,7 +229,8 @@
       <workItem from="1558199861174" duration="4869000" />
       <workItem from="1558252904074" duration="326000" />
       <workItem from="1558257780462" duration="3073000" />
-      <workItem from="1558280486212" duration="95000" />
+      <workItem from="1558280486212" duration="288000" />
+      <workItem from="1558363384123" duration="1420000" />
     </task>
     <task id="LOCAL-00001" summary="Created getting started doc files">
       <created>1556093480074</created>
@@ -317,11 +351,18 @@
       <option name="project" value="LOCAL" />
       <updated>1558260636837</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Added gaTrackingCode to siteConfig">
+      <created>1558280758528</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1558280758528</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="83692000" />
+    <option name="totallyTimeSpent" value="85305000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -337,11 +378,11 @@
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.2061012" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.2061012" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="1" sideWeight="0.49776787" weight="0.32952693" />
-      <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.50223213" side_tool="true" weight="0.32991454" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="1" sideWeight="0.49702382" visible="true" weight="0.32952693" />
+      <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.5029762" side_tool="true" weight="0.32952693" />
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Run" order="4" />
       <window_info anchor="bottom" id="Debug" order="5" weight="0.4" />
@@ -401,7 +442,8 @@
     <MESSAGE value="Fixed onPageNav spacings" />
     <MESSAGE value="Added expedite docs, updated script src" />
     <MESSAGE value="Added expedite form docs, updated previous expedite docs to include limit, offset, and complete example link." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added expedite form docs, updated previous expedite docs to include limit, offset, and complete example link." />
+    <MESSAGE value="Added gaTrackingCode to siteConfig" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added gaTrackingCode to siteConfig" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/docs/doc2.md" />
@@ -409,13 +451,6 @@
     <entry file="file://$PROJECT_DIR$/website/pages/en/users.js" />
     <entry file="file://$PROJECT_DIR$/website/pages/en/index.js" />
     <entry file="file://$PROJECT_DIR$/package.json" />
-    <entry file="file://$PROJECT_DIR$/website/core/Footer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="50" column="54" selection-start-line="50" selection-start-column="54" selection-end-line="50" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/website/yarn-error.log">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="93">
@@ -548,13 +583,6 @@
     <entry file="file://$PROJECT_DIR$/website/build/stein-docs/index.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/website/custom.tailwind.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2001">
-          <caret line="87" column="11" selection-start-line="87" selection-start-column="11" selection-end-line="87" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/website/gulpfile.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
@@ -638,11 +666,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/website/siteConfig.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-796">
-          <caret line="49" column="30" selection-start-line="49" selection-start-column="30" selection-end-line="49" selection-end-column="30" />
+        <state relative-caret-position="262">
+          <caret line="95" selection-start-line="95" selection-end-line="95" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website/custom.tailwind.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="10" column="31" lean-forward="true" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website/core/Footer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="828">
+          <caret line="36" column="24" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="24" />
         </state>
       </provider>
     </entry>
