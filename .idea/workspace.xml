@@ -1,10 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="303869e9-417e-4930-99ed-b22145b59e4f" name="Default Changelist" comment="Added gaTrackingCode to siteConfig">
+    <list default="true" id="303869e9-417e-4930-99ed-b22145b59e4f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/docs/client-libraries.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/core/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/website/core/Footer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/custom.tailwind.css" beforeDir="false" afterPath="$PROJECT_DIR$/website/custom.tailwind.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/add-rows.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/add-rows.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/delete-rows.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/delete-rows.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/read-data.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/read-data.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/search-data.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/search-data.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/update-rows.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/update-rows.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/sidebars.json" beforeDir="false" afterPath="$PROJECT_DIR$/website/sidebars.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/siteConfig.js" beforeDir="false" afterPath="$PROJECT_DIR$/website/siteConfig.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/website/static/css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/website/static/css/custom.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/website/node_modules/" />
@@ -22,8 +28,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/website/siteConfig.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="262">
-              <caret line="95" selection-start-line="95" selection-end-line="95" />
+            <state relative-caret-position="244">
+              <caret line="70" column="12" selection-start-line="70" selection-start-column="12" selection-end-line="70" selection-end-column="12" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -31,11 +37,35 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/website/core/Footer.js">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docs/client-libraries.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="536">
+                <caret line="53" column="2" lean-forward="true" selection-start-line="50" selection-end-line="53" selection-end-column="2" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/website/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="828">
-              <caret line="36" column="24" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="24" />
+            <state relative-caret-position="101">
+              <caret line="17" column="23" lean-forward="true" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/docs/read-data.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="253">
+                <caret line="56" column="7" lean-forward="true" selection-start-line="56" selection-start-column="7" selection-end-line="56" selection-end-column="7" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -68,10 +98,16 @@
       <find>a</find>
       <find>a {</find>
       <find>hover</find>
+      <find>bash</find>
+      <find>defa</find>
+      <find>usePr</find>
+      <find>```console</find>
     </findStrings>
     <replaceStrings>
       <replace>props</replace>
       <replace>introduction</replace>
+      <replace>console</replace>
+      <replace>```bash</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -93,7 +129,6 @@
         <option value="$PROJECT_DIR$/docs/search-data-in-sheet.md" />
         <option value="$PROJECT_DIR$/docs/read-data-from-sheet.md" />
         <option value="$PROJECT_DIR$/docs/read-sheet-data.md" />
-        <option value="$PROJECT_DIR$/docs/read-data.md" />
         <option value="$PROJECT_DIR$/docs/add-rows.md" />
         <option value="$PROJECT_DIR$/docs/hosting.md" />
         <option value="$PROJECT_DIR$/docs/search-data.md" />
@@ -105,22 +140,24 @@
         <option value="$PROJECT_DIR$/docs/authentication.md" />
         <option value="$PROJECT_DIR$/docs/introduction.md" />
         <option value="$PROJECT_DIR$/website/gulpfile.js" />
-        <option value="$PROJECT_DIR$/website/sidebars.json" />
         <option value="$PROJECT_DIR$/docs/expedite-installation.md" />
         <option value="$PROJECT_DIR$/docs/expedite-search-data.md" />
         <option value="$PROJECT_DIR$/docs/expedite-display-data.md" />
         <option value="$PROJECT_DIR$/docs/expedite-connect-forms.md" />
-        <option value="$PROJECT_DIR$/website/siteConfig.js" />
         <option value="$PROJECT_DIR$/website/custom.tailwind.css" />
         <option value="$PROJECT_DIR$/website/core/Footer.js" />
+        <option value="$PROJECT_DIR$/website/sidebars.json" />
+        <option value="$PROJECT_DIR$/docs/client-libraries.md" />
+        <option value="$PROJECT_DIR$/website/siteConfig.js" />
+        <option value="$PROJECT_DIR$/docs/read-data.md" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="633" />
-    <option name="y" value="35" />
-    <option name="width" value="697" />
-    <option name="height" value="735" />
+    <option name="x" value="254" />
+    <option name="y" value="182" />
+    <option name="width" value="800" />
+    <option name="height" value="788" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -141,26 +178,12 @@
             <path>
               <item name="stein-docs" type="b2602c69:ProjectViewProjectNode" />
               <item name="stein-docs" type="462c0819:PsiDirectoryNode" />
-              <item name="website" type="462c0819:PsiDirectoryNode" />
+              <item name="docs" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="stein-docs" type="b2602c69:ProjectViewProjectNode" />
               <item name="stein-docs" type="462c0819:PsiDirectoryNode" />
               <item name="website" type="462c0819:PsiDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="stein-docs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="stein-docs" type="462c0819:PsiDirectoryNode" />
-              <item name="website" type="462c0819:PsiDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
-              <item name="stein-docs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="stein-docs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="stein-docs" type="462c0819:PsiDirectoryNode" />
-              <item name="website" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -171,7 +194,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../expedite" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../JS-Client" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -230,7 +253,7 @@
       <workItem from="1558252904074" duration="326000" />
       <workItem from="1558257780462" duration="3073000" />
       <workItem from="1558280486212" duration="288000" />
-      <workItem from="1558363384123" duration="1420000" />
+      <workItem from="1558363384123" duration="8855000" />
     </task>
     <task id="LOCAL-00001" summary="Created getting started doc files">
       <created>1556093480074</created>
@@ -358,11 +381,18 @@
       <option name="project" value="LOCAL" />
       <updated>1558280758528</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Updated Footer links">
+      <created>1558367642946</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1558367642946</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="85305000" />
+    <option name="totallyTimeSpent" value="92740000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -381,7 +411,7 @@
       <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.2061012" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="1" sideWeight="0.49702382" visible="true" weight="0.32952693" />
+      <window_info anchor="bottom" id="Terminal" order="1" sideWeight="0.49702382" weight="0.32952693" />
       <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.5029762" side_tool="true" weight="0.32952693" />
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Run" order="4" />
@@ -397,18 +427,18 @@
     </layout>
     <layout-to-restore>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.20684524" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.2061012" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="1" sideWeight="0.49776787" weight="0.32991454" />
-      <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.50223213" side_tool="true" weight="0.32991454" />
+      <window_info anchor="bottom" id="Terminal" order="1" sideWeight="0.49702382" weight="0.32952693" />
+      <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.5029762" side_tool="true" weight="0.32952693" />
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Run" order="4" />
-      <window_info anchor="bottom" id="Version Control" order="5" weight="0.32991454" />
-      <window_info anchor="bottom" id="Debug" order="6" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="8" weight="0.32991454" />
-      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="7" weight="0.32991454" />
+      <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32952693" />
       <window_info anchor="bottom" id="TODO" order="10" weight="0.32991454" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -443,7 +473,8 @@
     <MESSAGE value="Added expedite docs, updated script src" />
     <MESSAGE value="Added expedite form docs, updated previous expedite docs to include limit, offset, and complete example link." />
     <MESSAGE value="Added gaTrackingCode to siteConfig" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added gaTrackingCode to siteConfig" />
+    <MESSAGE value="Updated Footer links" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated Footer links" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/docs/doc2.md" />
@@ -500,41 +531,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/hosting.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="184">
-            <caret line="9" column="255" selection-start-line="9" selection-start-column="255" selection-end-line="9" selection-end-column="255" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/delete-rows.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="315">
-            <caret line="24" column="25" lean-forward="true" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/docs/update-rows.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="163">
             <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/read-data.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="368">
-            <caret line="16" column="72" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="72" />
           </first_editor>
           <second_editor />
         </state>
@@ -587,20 +588,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
           <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/website/sidebars.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/website/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="31" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
         </state>
       </provider>
     </entry>
@@ -664,16 +651,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/website/siteConfig.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="95" selection-start-line="95" selection-end-line="95" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/website/custom.tailwind.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="48">
@@ -683,8 +660,79 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/website/core/Footer.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="828">
-          <caret line="36" column="24" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="24" />
+        <state relative-caret-position="138">
+          <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/hosting.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor>
+            <caret selection-end-line="3" selection-end-column="3" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/delete-rows.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="713">
+            <caret line="24" column="25" lean-forward="true" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website/sidebars.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="17" column="23" lean-forward="true" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/client-libraries.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="536">
+            <caret line="53" column="2" lean-forward="true" selection-start-line="50" selection-end-line="53" selection-end-column="2" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website/node_modules/docusaurus/lib/core/renderMarkdown.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="55" selection-start-line="55" selection-end-line="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website/siteConfig.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="70" column="12" selection-start-line="70" selection-start-column="12" selection-end-line="70" selection-end-column="12" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/read-data.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="253">
+            <caret line="56" column="7" lean-forward="true" selection-start-line="56" selection-start-column="7" selection-end-line="56" selection-end-column="7" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

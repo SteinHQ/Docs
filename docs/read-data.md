@@ -20,14 +20,18 @@ curl "http://api.steinhq.com/v1/storages/5cc158079ec99a2f484dcb40/Sheet1"
 # [{"title":"Why the Best Things in Life Can’t Be Planned","content":"Thales of Miletus, considered ...","link":"https://medium.com/...","author":"Zat Rana"}, {...}, ...]
 ```
 
-<!--JavaScript-->
+<!--Node.js-->
 
-```js
+```javascript
 // Read Sheet1
-fetch("http://api.steinhq.com/v1/storages/5cc158079ec99a2f484dcb40/Sheet1")
-  .then(response => {
-    return response.json();
-  })
+const SteinStore = require("stein-js-client");
+const store = new SteinStore(
+  "https://api.steinhq.com/v1/storages/5cca0542e52a3545102c1665"
+);
+
+store
+  .read("Sheet1", { limit: 1, offset: 2 })
+  .then(response => response.json())
   .then(json => {
     console.log(json);
   });
@@ -41,10 +45,11 @@ fetch("http://api.steinhq.com/v1/storages/5cc158079ec99a2f484dcb40/Sheet1")
 ## Optional request parameters
 
 You can optionally limit and offset your response.
-| Parameter | Description | Type |
-| ------------- | ------------- | ------------- |
-| limit | Maximum number of rows to be returned | Number (Integer) |
-| offset | Index of row from which response should start (default is 0) | Number (Integer) |
+
+| Parameter | Description                                                  | Type             |
+| --------- | ------------------------------------------------------------ | ---------------- |
+| limit     | Maximum number of rows to be returned                        | Number (Integer) |
+| offset    | Index of row from which response should start (default is 0) | Number (Integer) |
 
 <!--DOCUSAURUS_CODE_TABS-->
 <!--cURL-->
@@ -57,16 +62,18 @@ curl "http://api.steinhq.com/v1/storages/5cc158079ec99a2f484dcb40/Sheet1?limit=1
 # [{"title":"The Awkward Power Dynamics...","content":"The other night, I was...","link":"https://medium.com/...","author":"Deanna Pai"}]
 ```
 
-<!--JavaScript-->
+<!--Node.js-->
 
-```js
+```javascript
 // Read Sheet1, with a limit and an offset
-fetch(
-  "http://api.steinhq.com/v1/storages/5cc158079ec99a2f484dcb40/Sheet1?limit=1&offset=2"
-)
-  .then(response => {
-    return response.json();
-  })
+const SteinStore = require("stein-js-client");
+const store = new SteinStore(
+  "https://api.steinhq.com/v1/storages/5cca0542e52a3545102c1665"
+);
+
+store
+  .read("Sheet1", { limit: 1, offset: 2 })
+  .then(response => response.json())
   .then(json => {
     console.log(json);
   });
