@@ -60,6 +60,30 @@ store
   });
 ```
 
+<!--HTML-->
+
+```html
+<script src="https://unpkg.com/stein-js-client"></script>
+<script>
+  const store = new SteinStore(
+    "https://api.steinhq.com/v1/storages/5cc158079ec99a2f484dcb40"
+  );
+
+  store
+    .append("Sheet2", [
+      {
+        title: "Awesome article",
+        author: "Me!",
+        content: "A brief summary",
+        link: "blog.me.com/awesome-article"
+      }
+    ])
+    .then(function(res) {
+      console.log(res);
+    });
+</script>
+```
+
 <!--END_DOCUSAURUS_CODE_TABS-->
 
 ## Return Value

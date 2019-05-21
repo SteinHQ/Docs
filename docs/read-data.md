@@ -37,6 +37,24 @@ store.read("Sheet1", { limit: 1, offset: 2 }).then(data => {
 // [{"title":"Why the Best Things in Life Can’t Be Planned","content":"Thales of Miletus, considered ...","link":"https://medium.com/...","author":"Zat Rana"}, {...}, ...]
 ```
 
+<!--HTML-->
+
+```html
+<script src="https://unpkg.com/stein-js-client"></script>
+<script>
+  const store = new SteinStore(
+    "https://api.steinhq.com/v1/storages/5cc158079ec99a2f484dcb40"
+  );
+
+  store.read("Sheet1", { limit: 1, offset: 2 }).then(data => {
+    console.log(data);
+  });
+
+  // Logs ↓ (trimmed for brevity)
+  // [{"title":"Why the Best Things in Life Can’t Be Planned","content":"Thales of Miletus, considered ...","link":"https://medium.com/...","author":"Zat Rana"}, {...}, ...]
+</script>
+```
+
 <!--END_DOCUSAURUS_CODE_TABS-->
 
 ## Optional request parameters
@@ -74,6 +92,21 @@ store.read("Sheet1", { limit: 1, offset: 2 }).then(data => {
 
 // Logs ↓ (trimmed for brevity)
 // [{"title":"The Awkward Power Dynamics...","content":"The other night, I was...","link":"https://medium.com/...","author":"Deanna Pai"}]
+```
+
+<!--HTML-->
+
+```html
+<script src="https://unpkg.com/stein-js-client"></script>
+<script>
+  const store = new SteinStore(
+    "https://api.steinhq.com/v1/storages/5cc158079ec99a2f484dcb40"
+  );
+
+  store.read("Sheet1", { limit: 1, offset: 2 }).then(data => {
+    console.log(data);
+  });
+</script>
 ```
 
 <!--END_DOCUSAURUS_CODE_TABS-->

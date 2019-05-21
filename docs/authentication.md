@@ -39,7 +39,6 @@ curl "https://api.steinhq.com/v1/storages/5cc158079ec99a2f484dcb40/Sheet1" \
 <!--Node.js-->
 
 ```javascript
-// Read Sheet1, with a limit and an offset
 const SteinStore = require("stein-js-client");
 const store = new SteinStore(
   "https://api.steinhq.com/v1/storages/5cc158079ec99a2f484dcb40"
@@ -52,6 +51,25 @@ store
   .then(data => {
     console.log(data);
   });
+```
+
+<!--HTML-->
+
+```html
+<script src="https://unpkg.com/stein-js-client"></script>
+<script>
+  const store = new SteinStore(
+    "https://api.steinhq.com/v1/storages/5cc158079ec99a2f484dcb40"
+  );
+
+  store
+    .read("Sheet1", {
+      authentication: { username: "username", password: "password" }
+    })
+    .then(data => {
+      console.log(data);
+    });
+</script>
 ```
 
 <!--END_DOCUSAURUS_CODE_TABS-->

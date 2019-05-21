@@ -15,4 +15,6 @@ The Stein API provides RESTful access to Google Sheets. All the data is communic
 
 Stein generates separate API endpoints for each spreadsheet you decide to interact with. You can create APIs via the interface, as described in the [next section](create-api.md).
 
-The rest of the suite intends to simplify access to the core API by providing helpers and API clients.
+## Using Client Libraries
+
+The Stein suite intends to simplify access to the core API by providing helpers and API clients. Check out [this section](client-libraries.md) for more details.

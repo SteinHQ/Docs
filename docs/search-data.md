@@ -41,6 +41,24 @@ store.read("Sheet1", { search: { author: "Shiven Sinha" } }).then(data => {
 // [{"title":"How to create a successful...","content":"Building a good landing page...","link":"https://uxdesign.cc/how-to...","author":"Shiven Sinha"}]
 ```
 
+<!--HTML-->
+
+```html
+<script src="https://unpkg.com/stein-js-client"></script>
+<script>
+  const store = new SteinStore(
+    "https://api.steinhq.com/v1/storages/5cc158079ec99a2f484dcb40"
+  );
+
+  store.read("Sheet1", { search: { author: "Shiven Sinha" } }).then(data => {
+    console.log(data);
+  });
+
+  // Logs ↓ (trimmed for brevity)
+  // [{"title":"How to create a successful...","content":"Building a good landing page...","link":"https://uxdesign.cc/how-to...","author":"Shiven Sinha"}]
+</script>
+```
+
 <!--END_DOCUSAURUS_CODE_TABS-->
 
 ## Optional request parameters

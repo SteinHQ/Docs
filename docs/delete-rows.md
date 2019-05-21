@@ -39,7 +39,6 @@ curl "http://api.steinhq.com/v1/storages/5cc158079ec99a2f484dcb40/Sheet1" \
 <!--Node.js-->
 
 ```javascript
-// Search Sheet1
 const SteinStore = require("stein-js-client");
 const store = new SteinStore(
   "https://api.steinhq.com/v1/storages/5cc158079ec99a2f484dcb40"
@@ -52,6 +51,25 @@ store
   .then(function(res) {
     console.log(res);
   });
+```
+
+<!--HTML-->
+
+```html
+<script src="https://unpkg.com/stein-js-client"></script>
+<script>
+  const store = new SteinStore(
+    "https://api.steinhq.com/v1/storages/5cc158079ec99a2f484dcb40"
+  );
+
+  store
+    .delete("Sheet1", {
+      search: { author: "Shiven Sinha" }
+    })
+    .then(function(res) {
+      console.log(res);
+    });
+</script>
 ```
 
 <!--END_DOCUSAURUS_CODE_TABS-->
