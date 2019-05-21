@@ -22,3 +22,36 @@ Credentials are passed as a base64-encoded string `username:password`. For examp
 We then pass this as the authorization header with our request.
 
 `Authorization: Basic am9obi1kb2U6YW4tdW5ndWVzc2FibGUtdGVybQ==`
+
+However, this manual encoding is needed when you are explicitly setting the request headers. In most cases, your request client wil handle this for you. All Stein API clients and cURL allow straightforward configuration.
+
+## Example
+
+<!--DOCUSAURUS_CODE_TABS-->
+<!--cURL-->
+
+```bash
+# Read Sheet1
+curl "https://api.steinhq.com/v1/storages/5cc158079ec99a2f484dcb40/Sheet1" \
+    -u "username:password"
+```
+
+<!--Node.js-->
+
+```javascript
+// Read Sheet1, with a limit and an offset
+const SteinStore = require("stein-js-client");
+const store = new SteinStore(
+  "https://api.steinhq.com/v1/storages/5cc158079ec99a2f484dcb40"
+);
+
+store
+  .read("Sheet1", {
+    authentication: { username: "username", password: "password" }
+  })
+  .then(data => {
+    console.log(data);
+  });
+```
+
+<!--END_DOCUSAURUS_CODE_TABS-->

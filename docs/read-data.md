@@ -14,7 +14,7 @@ Let's read the contents of _[Sheet1](https://docs.google.com/spreadsheets/d/13Bc
 
 ```bash
 # Read Sheet1
-curl "http://api.steinhq.com/v1/storages/5cc158079ec99a2f484dcb40/Sheet1"
+curl "https://api.steinhq.com/v1/storages/5cc158079ec99a2f484dcb40/Sheet1"
 
 # Response ↓ (trimmed for brevity)
 # [{"title":"Why the Best Things in Life Can’t Be Planned","content":"Thales of Miletus, considered ...","link":"https://medium.com/...","author":"Zat Rana"}, {...}, ...]
@@ -26,15 +26,12 @@ curl "http://api.steinhq.com/v1/storages/5cc158079ec99a2f484dcb40/Sheet1"
 // Read Sheet1
 const SteinStore = require("stein-js-client");
 const store = new SteinStore(
-  "https://api.steinhq.com/v1/storages/5cca0542e52a3545102c1665"
+  "https://api.steinhq.com/v1/storages/5cc158079ec99a2f484dcb40"
 );
 
-store
-  .read("Sheet1", { limit: 1, offset: 2 })
-  .then(response => response.json())
-  .then(json => {
-    console.log(json);
-  });
+store.read("Sheet1", { limit: 1, offset: 2 }).then(data => {
+  console.log(data);
+});
 
 // Logs ↓ (trimmed for brevity)
 // [{"title":"Why the Best Things in Life Can’t Be Planned","content":"Thales of Miletus, considered ...","link":"https://medium.com/...","author":"Zat Rana"}, {...}, ...]
@@ -56,7 +53,7 @@ You can optionally limit and offset your response.
 
 ```bash
 # Read Sheet1, with a limit and an offset
-curl "http://api.steinhq.com/v1/storages/5cc158079ec99a2f484dcb40/Sheet1?limit=1&offset=2"
+curl "https://api.steinhq.com/v1/storages/5cc158079ec99a2f484dcb40/Sheet1?limit=1&offset=2"
 
 # Response ↓ (trimmed for brevity)
 # [{"title":"The Awkward Power Dynamics...","content":"The other night, I was...","link":"https://medium.com/...","author":"Deanna Pai"}]
@@ -68,15 +65,12 @@ curl "http://api.steinhq.com/v1/storages/5cc158079ec99a2f484dcb40/Sheet1?limit=1
 // Read Sheet1, with a limit and an offset
 const SteinStore = require("stein-js-client");
 const store = new SteinStore(
-  "https://api.steinhq.com/v1/storages/5cca0542e52a3545102c1665"
+  "https://api.steinhq.com/v1/storages/5cc158079ec99a2f484dcb40"
 );
 
-store
-  .read("Sheet1", { limit: 1, offset: 2 })
-  .then(response => response.json())
-  .then(json => {
-    console.log(json);
-  });
+store.read("Sheet1", { limit: 1, offset: 2 }).then(data => {
+  console.log(data);
+});
 
 // Logs ↓ (trimmed for brevity)
 // [{"title":"The Awkward Power Dynamics...","content":"The other night, I was...","link":"https://medium.com/...","author":"Deanna Pai"}]

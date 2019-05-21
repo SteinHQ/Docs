@@ -1,17 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="303869e9-417e-4930-99ed-b22145b59e4f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/docs/client-libraries.md" afterDir="false" />
+    <list default="true" id="303869e9-417e-4930-99ed-b22145b59e4f" name="Default Changelist" comment="Completed docs for authentication, added Node.js code examples">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/add-rows.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/add-rows.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/authentication.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/authentication.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/delete-rows.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/delete-rows.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/read-data.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/read-data.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/search-data.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/search-data.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/update-rows.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/update-rows.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/sidebars.json" beforeDir="false" afterPath="$PROJECT_DIR$/website/sidebars.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/website/siteConfig.js" beforeDir="false" afterPath="$PROJECT_DIR$/website/siteConfig.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/static/css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/website/static/css/custom.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/website/node_modules/" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -26,44 +24,23 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/website/siteConfig.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="244">
-              <caret line="70" column="12" selection-start-line="70" selection-start-column="12" selection-end-line="70" selection-end-column="12" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docs/client-libraries.md">
+        <entry file="file://$PROJECT_DIR$/docs/read-data.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="536">
-                <caret line="53" column="2" lean-forward="true" selection-start-line="50" selection-end-line="53" selection-end-column="2" />
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="389">
+                <caret line="78" column="31" selection-start-line="50" selection-end-line="78" selection-end-column="31" />
               </first_editor>
               <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/website/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="101">
-              <caret line="17" column="23" lean-forward="true" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/docs/read-data.md">
+        <entry file="file://$PROJECT_DIR$/docs/authentication.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="253">
-                <caret line="56" column="7" lean-forward="true" selection-start-line="56" selection-start-column="7" selection-end-line="56" selection-end-column="7" />
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="113">
+                <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
               </first_editor>
               <second_editor />
             </state>
@@ -102,6 +79,7 @@
       <find>defa</find>
       <find>usePr</find>
       <find>```console</find>
+      <find>collapsi</find>
     </findStrings>
     <replaceStrings>
       <replace>props</replace>
@@ -112,6 +90,11 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -129,15 +112,10 @@
         <option value="$PROJECT_DIR$/docs/search-data-in-sheet.md" />
         <option value="$PROJECT_DIR$/docs/read-data-from-sheet.md" />
         <option value="$PROJECT_DIR$/docs/read-sheet-data.md" />
-        <option value="$PROJECT_DIR$/docs/add-rows.md" />
         <option value="$PROJECT_DIR$/docs/hosting.md" />
-        <option value="$PROJECT_DIR$/docs/search-data.md" />
-        <option value="$PROJECT_DIR$/docs/update-rows.md" />
-        <option value="$PROJECT_DIR$/docs/delete-rows.md" />
         <option value="$PROJECT_DIR$/docs/create-api.md" />
         <option value="$PROJECT_DIR$/docs/expedite-introduction.md" />
         <option value="$PROJECT_DIR$/website/package.json" />
-        <option value="$PROJECT_DIR$/docs/authentication.md" />
         <option value="$PROJECT_DIR$/docs/introduction.md" />
         <option value="$PROJECT_DIR$/website/gulpfile.js" />
         <option value="$PROJECT_DIR$/docs/expedite-installation.md" />
@@ -150,14 +128,18 @@
         <option value="$PROJECT_DIR$/docs/client-libraries.md" />
         <option value="$PROJECT_DIR$/website/siteConfig.js" />
         <option value="$PROJECT_DIR$/docs/read-data.md" />
+        <option value="$PROJECT_DIR$/docs/search-data.md" />
+        <option value="$PROJECT_DIR$/docs/update-rows.md" />
+        <option value="$PROJECT_DIR$/docs/add-rows.md" />
+        <option value="$PROJECT_DIR$/docs/delete-rows.md" />
+        <option value="$PROJECT_DIR$/docs/authentication.md" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="254" />
-    <option name="y" value="182" />
-    <option name="width" value="800" />
-    <option name="height" value="788" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="676" />
+    <option name="width" value="697" />
+    <option name="height" value="735" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -178,12 +160,20 @@
             <path>
               <item name="stein-docs" type="b2602c69:ProjectViewProjectNode" />
               <item name="stein-docs" type="462c0819:PsiDirectoryNode" />
-              <item name="docs" type="462c0819:PsiDirectoryNode" />
+              <item name="website" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="stein-docs" type="b2602c69:ProjectViewProjectNode" />
               <item name="stein-docs" type="462c0819:PsiDirectoryNode" />
               <item name="website" type="462c0819:PsiDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="stein-docs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="stein-docs" type="462c0819:PsiDirectoryNode" />
+              <item name="website" type="462c0819:PsiDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+              <item name="stein-docs" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -253,7 +243,8 @@
       <workItem from="1558252904074" duration="326000" />
       <workItem from="1558257780462" duration="3073000" />
       <workItem from="1558280486212" duration="288000" />
-      <workItem from="1558363384123" duration="8855000" />
+      <workItem from="1558363384123" duration="8977000" />
+      <workItem from="1558420126636" duration="3845000" />
     </task>
     <task id="LOCAL-00001" summary="Created getting started doc files">
       <created>1556093480074</created>
@@ -388,11 +379,18 @@
       <option name="project" value="LOCAL" />
       <updated>1558367642946</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Added client libraries section, started adding Node.js code tabs">
+      <created>1558378037895</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1558378037895</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="92740000" />
+    <option name="totallyTimeSpent" value="96707000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -404,14 +402,13 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <frame x="676" y="0" width="697" height="735" extended-state="0" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.2061012" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.30500758" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="1" sideWeight="0.49702382" weight="0.32952693" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="1" sideWeight="0.49702382" visible="true" weight="0.33278146" />
       <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.5029762" side_tool="true" weight="0.32952693" />
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Run" order="4" />
@@ -474,7 +471,8 @@
     <MESSAGE value="Added expedite form docs, updated previous expedite docs to include limit, offset, and complete example link." />
     <MESSAGE value="Added gaTrackingCode to siteConfig" />
     <MESSAGE value="Updated Footer links" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated Footer links" />
+    <MESSAGE value="Added client libraries section, started adding Node.js code tabs" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added client libraries section, started adding Node.js code tabs" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/docs/doc2.md" />
@@ -521,26 +519,6 @@
     <entry file="file://$PROJECT_DIR$/docs/assets/prepared-sheet.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/add-rows.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="92">
-            <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/update-rows.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="163">
-            <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/website/static/css/docusaurus-admonitions.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -556,16 +534,6 @@
         <state split_layout="SPLIT">
           <first_editor>
             <caret selection-end-line="4" selection-end-column="3" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/authentication.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="115">
-            <caret line="5" column="49" selection-start-line="5" selection-start-column="49" selection-end-line="5" selection-end-column="49" />
           </first_editor>
           <second_editor />
         </state>
@@ -606,16 +574,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="122">
             <caret line="8" column="2" lean-forward="true" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="41" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/search-data.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-437">
-            <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
           </first_editor>
           <second_editor />
         </state>
@@ -675,37 +633,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/delete-rows.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="713">
-            <caret line="24" column="25" lean-forward="true" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/website/sidebars.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
           <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/website/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="101">
-          <caret line="17" column="23" lean-forward="true" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/client-libraries.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="536">
-            <caret line="53" column="2" lean-forward="true" selection-start-line="50" selection-end-line="53" selection-end-column="2" />
-          </first_editor>
-          <second_editor />
         </state>
       </provider>
     </entry>
@@ -716,21 +647,88 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/docs/client-libraries.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="1219">
+            <caret line="53" column="2" selection-start-line="50" selection-end-line="53" selection-end-column="2" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/website/siteConfig.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="70" column="12" selection-start-line="70" selection-start-column="12" selection-end-line="70" selection-end-column="12" />
+        <state relative-caret-position="138">
+          <caret line="83" column="31" selection-start-line="83" selection-start-column="31" selection-end-line="83" selection-end-column="31" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/docs/search-data.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="366">
+            <caret line="43" column="31" lean-forward="true" selection-start-line="26" selection-end-line="43" selection-end-column="31" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/update-rows.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="182">
+            <caret line="42" column="16" lean-forward="true" selection-start-line="42" selection-start-column="16" selection-end-line="42" selection-end-column="16" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/add-rows.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="504">
+            <caret line="62" column="31" lean-forward="true" selection-start-line="39" selection-end-line="62" selection-end-column="31" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/delete-rows.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="596">
+            <caret line="47" column="5" lean-forward="true" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/docs/read-data.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="253">
-            <caret line="56" column="7" lean-forward="true" selection-start-line="56" selection-start-column="7" selection-end-line="56" selection-end-column="7" />
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="389">
+            <caret line="78" column="31" selection-start-line="50" selection-end-line="78" selection-end-column="31" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/authentication.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="113">
+            <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
           </first_editor>
           <second_editor />
         </state>

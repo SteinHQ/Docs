@@ -26,12 +26,35 @@ The number of rows deleted is limited as per the `limit` option, if specified.
 
 Let's delete all posts by Shiven Sinha in the [_Blog Posts_ Sheet](https://docs.google.com/spreadsheets/d/13Bc-RY9pOviWvZ7V7CHvuC8QjCqW73guBPk2WxXT0DM/edit#gid=0). This request accomplishes that.
 
+<!--DOCUSAURUS_CODE_TABS-->
+<!--cURL-->
+
 ```bash
 curl "http://api.steinhq.com/v1/storages/5cc158079ec99a2f484dcb40/Sheet1" \
 -X DELETE \
 -H "Content-Type: application/json" \
 -d '{"condition": {"author": "Shiven Sinha"}}'
 ```
+
+<!--Node.js-->
+
+```javascript
+// Search Sheet1
+const SteinStore = require("stein-js-client");
+const store = new SteinStore(
+  "https://api.steinhq.com/v1/storages/5cc158079ec99a2f484dcb40"
+);
+
+store
+  .delete("Sheet1", {
+    search: { author: "Shiven Sinha" }
+  })
+  .then(function(res) {
+    console.log(res);
+  });
+```
+
+<!--END_DOCUSAURUS_CODE_TABS-->
 
 ## Return value
 

@@ -13,13 +13,35 @@ Form a JSON string with your <span class="bg-accent">search options mapped as `{
 
 Let's search for posts by _Shiven Sinha_ in our [_Blog Posts_ Sheet](https://docs.google.com/spreadsheets/d/13Bc-RY9pOviWvZ7V7CHvuC8QjCqW73guBPk2WxXT0DM/edit#gid=0).
 
+<!--DOCUSAURUS_CODE_TABS-->
+<!--cURL-->
+
 ```bash
 # Search Sheet1
-curl 'http://api.steinhq.com/v1/storages/5cc158079ec99a2f484dcb40/Sheet1?search={"author":"Shiven Sinha"}'
+curl 'https://api.steinhq.com/v1/storages/5cc158079ec99a2f484dcb40/Sheet1?search={"author":"Shiven Sinha"}'
 
 # Response ↓ (trimmed for brevity)
 # [{"title":"How to create a successful...","content":"Building a good landing page...","link":"https://uxdesign.cc/how-to...","author":"Shiven Sinha"}]
 ```
+
+<!--Node.js-->
+
+```javascript
+// Search Sheet1
+const SteinStore = require("stein-js-client");
+const store = new SteinStore(
+  "https://api.steinhq.com/v1/storages/5cc158079ec99a2f484dcb40"
+);
+
+store.read("Sheet1", { search: { author: "Shiven Sinha" } }).then(data => {
+  console.log(data);
+});
+
+// Logs ↓ (trimmed for brevity)
+// [{"title":"How to create a successful...","content":"Building a good landing page...","link":"https://uxdesign.cc/how-to...","author":"Shiven Sinha"}]
+```
+
+<!--END_DOCUSAURUS_CODE_TABS-->
 
 ## Optional request parameters
 

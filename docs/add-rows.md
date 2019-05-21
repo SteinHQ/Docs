@@ -26,13 +26,41 @@ For example, the [_Blog Posts_ Sheet](https://docs.google.com/spreadsheets/d/13B
 
 Here's an example request:
 
+<!--DOCUSAURUS_CODE_TABS-->
+<!--cURL-->
+
 ```bash
 # Adds a row to spreadsheet
-curl "http://api.steinhq.com/v1/storages/5cc158079ec99a2f484dcb40/Sheet1" \
+curl "https://api.steinhq.com/v1/storages/5cc158079ec99a2f484dcb40/Sheet1" \
 -X POST \
 -H "Content-Type: application/json" \
 -d '[{"title": "...", "author": "...", ...}, ...]'
 ```
+
+<!--Node.js-->
+
+```javascript
+// Search Sheet1
+const SteinStore = require("stein-js-client");
+const store = new SteinStore(
+  "https://api.steinhq.com/v1/storages/5cc158079ec99a2f484dcb40"
+);
+
+store
+  .append("Sheet2", [
+    {
+      title: "Awesome article",
+      author: "Me!",
+      content: "A brief summary",
+      link: "blog.me.com/awesome-article"
+    }
+  ])
+  .then(function(res) {
+    console.log(res);
+  });
+```
+
+<!--END_DOCUSAURUS_CODE_TABS-->
 
 ## Return Value
 
