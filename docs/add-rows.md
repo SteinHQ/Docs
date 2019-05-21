@@ -55,7 +55,7 @@ store
       link: "blog.me.com/awesome-article"
     }
   ])
-  .then(function(res) {
+  .then(res => {
     console.log(res);
   });
 ```
@@ -78,7 +78,7 @@ store
         link: "blog.me.com/awesome-article"
       }
     ])
-    .then(function(res) {
+    .then(res => {
       console.log(res);
     });
 </script>

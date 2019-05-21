@@ -51,7 +51,7 @@ store
     search: { author: "Shiven Sinha" },
     set: { title: "Currently Unavailable" }
   })
-  .then(function(res) {
+  .then(res => {
     console.log(res);
   });
 ```
@@ -70,7 +70,7 @@ store
       search: { author: "Shiven Sinha" },
       set: { title: "Currently Unavailable" }
     })
-    .then(function(res) {
+    .then(res => {
       console.log(res);
     });
 </script>

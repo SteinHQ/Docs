@@ -48,7 +48,7 @@ store
   .delete("Sheet1", {
     search: { author: "Shiven Sinha" }
   })
-  .then(function(res) {
+  .then(res => {
     console.log(res);
   });
 ```
@@ -66,7 +66,7 @@ store
     .delete("Sheet1", {
       search: { author: "Shiven Sinha" }
     })
-    .then(function(res) {
+    .then(res => {
       console.log(res);
     });
 </script>
