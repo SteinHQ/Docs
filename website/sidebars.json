@@ -9,9 +9,9 @@
       "update-rows",
       "delete-rows",
       "authentication",
-      "client-libraries",
-      "hosting"
+      "client-libraries"
     ],
+    "Hosting": ["hosting-introduction", "self-hosting"],
     "Stein Expedite": [
       "expedite-introduction",
       "expedite-installation",

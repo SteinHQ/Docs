@@ -23,7 +23,7 @@ The basic steps to use a library in your project are common to all languages. (C
 <!--Node.js-->
 
 ```bash
-npm install stein-js-client
+$ npm install stein-js-client
 ```
 
 <!--END_DOCUSAURUS_CODE_TABS-->

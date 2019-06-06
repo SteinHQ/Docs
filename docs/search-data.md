@@ -18,7 +18,7 @@ Let's search for posts by _Shiven Sinha_ in our [_Blog Posts_ Sheet](https://doc
 
 ```bash
 # Search Sheet1
-curl 'https://api.steinhq.com/v1/storages/5cc158079ec99a2f484dcb40/Sheet1?search={"author":"Shiven Sinha"}'
+$ curl 'https://api.steinhq.com/v1/storages/5cc158079ec99a2f484dcb40/Sheet1?search={"author":"Shiven Sinha"}'
 
 # Response ↓ (trimmed for brevity)
 # [{"title":"How to create a successful...","content":"Building a good landing page...","link":"https://uxdesign.cc/how-to...","author":"Shiven Sinha"}]

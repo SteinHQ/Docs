@@ -31,10 +31,10 @@ Here's an example request:
 
 ```bash
 # Adds a row to spreadsheet
-curl "https://api.steinhq.com/v1/storages/5cc158079ec99a2f484dcb40/Sheet1" \
--X POST \
--H "Content-Type: application/json" \
--d '[{"title": "...", "author": "...", ...}, ...]'
+$ curl "https://api.steinhq.com/v1/storages/5cc158079ec99a2f484dcb40/Sheet1" \
+    -X POST \
+    -H "Content-Type: application/json" \
+    -d '[{"title": "...", "author": "...", ...}, ...]'
 ```
 
 <!--Node.js-->

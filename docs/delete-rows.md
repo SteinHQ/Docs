@@ -30,10 +30,10 @@ Let's delete all posts by Shiven Sinha in the [_Blog Posts_ Sheet](https://docs.
 <!--cURL-->
 
 ```bash
-curl "http://api.steinhq.com/v1/storages/5cc158079ec99a2f484dcb40/Sheet1" \
--X DELETE \
--H "Content-Type: application/json" \
--d '{"condition": {"author": "Shiven Sinha"}}'
+$ curl "http://api.steinhq.com/v1/storages/5cc158079ec99a2f484dcb40/Sheet1" \
+    -X DELETE \
+    -H "Content-Type: application/json" \
+    -d '{"condition": {"author": "Shiven Sinha"}}'
 ```
 
 <!--Node.js-->

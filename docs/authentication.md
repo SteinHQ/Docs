@@ -32,7 +32,7 @@ However, this manual encoding is needed when you are explicitly setting the requ
 
 ```bash
 # Read Sheet1
-curl "https://api.steinhq.com/v1/storages/5cc158079ec99a2f484dcb40/Sheet1" \
+$ curl "https://api.steinhq.com/v1/storages/5cc158079ec99a2f484dcb40/Sheet1" \
     -u "username:password"
 ```
 

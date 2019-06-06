@@ -31,10 +31,10 @@ Let's update the _title_ field of all posts by Shiven Sinha in the [_Blog Posts_
 <!--cURL-->
 
 ```bash
-curl "http://api.steinhq.com/v1/storages/5cc158079ec99a2f484dcb40/Sheet1" \
--X PUT \
--H "Content-Type: application/json" \
--d '{"condition": {"author": "Shiven Sinha"}, "set": {"title": "Currently Unavailable"}}'
+$ curl "http://api.steinhq.com/v1/storages/5cc158079ec99a2f484dcb40/Sheet1" \
+    -X PUT \
+    -H "Content-Type: application/json" \
+    -d '{"condition": {"author": "Shiven Sinha"}, "set": {"title": "Currently Unavailable"}}'
 ```
 
 <!--Node.js-->
