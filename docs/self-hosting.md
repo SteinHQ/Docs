@@ -63,12 +63,13 @@ Install the stein-core package in your project.
 $ npm i stein-core
 ```
 
-Then edit the package.json file to include the script for starting the Stein server.
+Then edit the package.json file to add scripts for controlling the Stein server.
 
 ```json
 {
   "scripts": {
-    "start-stein": "stein-core start"
+    "stein:start": "stein start",
+    "stein:stop": "stein stop"
   }
 }
 ```
@@ -96,15 +97,41 @@ Stein requires these environment variables (case-sensitive) to be specified on y
 Think of the session secret as a password: you do not want anyone to guess this.
 :::
 
+You can also use [cross-env](https://www.npmjs.com/package/cross-env) to specify environment variables. First, install the package from NPM.
+
+```bash
+$ npm install cross-env
+```
+
+Then, use `cross-env` to specify environment variables from your package.json's `stein:start` script.
+
+```json
+{
+  "scripts": {
+    "stein:start": "cross-env STEIN_PORT=3000 STEIN_MONGO_URL=mongodb://abc STEIN_CLIENT_SECRET=abc STEIN_CLIENT_ID=ab.cd STEIN_CALLBACK_URL=http://abc STEIN_SESSION_SECRET=s3cr3t stein start"
+  }
+}
+```
+
 ### 6. Run Stein
 
 First, make sure that MongoDB is running on the URL specified in the environment. Then, from your project's root, run the following command to boot up Stein.
 
 ```bash
-$ npm run start-stein
+$ npm run stein:start
 ```
 
-An instance of Stein should boot up on the port specified in the environment variable, or on 3000 by default. We're almost done!
+To stop the server, use the script defined earlier.
+
+```bash
+$ npm run stein:stop
+```
+
+On start, an instance of Stein should boot up on the port specified in the environment variable (3000 by default). We're almost done!
+
+:::note
+The logs can be found in .log files in the stein-core folder in node_modules
+:::
 
 ### 7. Set up Nginx as reverse proxy
 
