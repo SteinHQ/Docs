@@ -1,6 +1,7 @@
 ---
 id: introduction
-title: Introduction & Core Concepts
+title: Getting Started
+sidebar_label: Introduction & Core Concepts
 ---
 
 Stein is a suite of programs to help you turn any Google Sheet to a database. The core Stein API provides RESTful access to your sheets. The rest of the suite includes helpers to make your work (even!) easier.

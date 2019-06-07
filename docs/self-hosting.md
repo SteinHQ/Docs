@@ -98,7 +98,7 @@ Think of the session secret as a password: you do not want anyone to guess this.
 
 ### 6. Run Stein
 
-While in your project's root, run the following command to boot up Stein.
+First, make sure that MongoDB is running on the URL specified in the environment. Then, from your project's root, run the following command to boot up Stein.
 
 ```bash
 $ npm run start-stein
