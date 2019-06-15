@@ -41,11 +41,10 @@ const siteConfig = {
     secondaryColor: "#00afa3"
   },
 
-  /*algolia: {
-    apiKey: '',
-    indexName: 'my-index-name',
-    algoliaOptions: {} // Optional, if provided by Algolia
-  },*/
+  algolia: {
+    apiKey: "882ef23aec834ed40e820965ca59aa4f",
+    indexName: "steinhq"
+  },
 
   gaTrackingId: "UA-69629389-7",
 

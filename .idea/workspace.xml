@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="303869e9-417e-4930-99ed-b22145b59e4f" name="Default Changelist" comment="Added instructions to run MongoDB before starting the server, modified titles a bit.">
+    <list default="true" id="303869e9-417e-4930-99ed-b22145b59e4f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/siteConfig.js" beforeDir="false" afterPath="$PROJECT_DIR$/website/siteConfig.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/website/static/css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/website/static/css/custom.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/website/node_modules/" />
@@ -35,11 +36,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/website/gulpfile.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+            <state relative-caret-position="207">
+              <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/website/siteConfig.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="253">
+              <caret line="45" column="24" selection-start-line="45" selection-start-column="24" selection-end-line="45" selection-end-column="24" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -48,7 +61,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>docusa</find>
       <find>docusaurus.svg</find>
       <find>doc1</find>
       <find>docu</find>
@@ -78,6 +90,7 @@
       <find>sidebar</find>
       <find>bash</find>
       <find>NGINX</find>
+      <find>algo</find>
     </findStrings>
     <replaceStrings>
       <replace>props</replace>
@@ -119,7 +132,6 @@
         <option value="$PROJECT_DIR$/docs/expedite-connect-forms.md" />
         <option value="$PROJECT_DIR$/website/custom.tailwind.css" />
         <option value="$PROJECT_DIR$/website/core/Footer.js" />
-        <option value="$PROJECT_DIR$/website/siteConfig.js" />
         <option value="$PROJECT_DIR$/docs/hosting.md" />
         <option value="$PROJECT_DIR$/website/sidebars.json" />
         <option value="$PROJECT_DIR$/docs/hosting-options.md" />
@@ -133,12 +145,13 @@
         <option value="$PROJECT_DIR$/docs/introduction.md" />
         <option value="$PROJECT_DIR$/docs/self-hosting.md" />
         <option value="$PROJECT_DIR$/website/package.json" />
+        <option value="$PROJECT_DIR$/website/siteConfig.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="275" />
-    <option name="y" value="111" />
+    <option name="x" value="595" />
+    <option name="y" value="304" />
     <option name="width" value="697" />
     <option name="height" value="735" />
   </component>
@@ -150,6 +163,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -197,7 +211,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -268,6 +281,7 @@
       <workItem from="1558458389757" duration="3349000" />
       <workItem from="1559805060165" duration="13264000" />
       <workItem from="1559887273830" duration="4272000" />
+      <workItem from="1560621487699" duration="1083000" />
     </task>
     <task id="LOCAL-00001" summary="Created getting started doc files">
       <created>1556093480074</created>
@@ -437,11 +451,18 @@
       <option name="project" value="LOCAL" />
       <updated>1559892028285</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Updated build">
+      <created>1559931910710</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1559931910710</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="122235000" />
+    <option name="totallyTimeSpent" value="124016000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -456,10 +477,10 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.24553572" />
+      <window_info content_ui="combo" id="Project" order="1" weight="0.119791664" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="1" sideWeight="0.49620637" visible="true" weight="0.3360522" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="1" sideWeight="0.49620637" visible="true" weight="0.32952693" />
       <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.5037936" side_tool="true" weight="0.3360927" />
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Run" order="4" />
@@ -527,7 +548,8 @@
     <MESSAGE value="Added HTML example code tabs" />
     <MESSAGE value="Added self-hosting docs" />
     <MESSAGE value="Added instructions to run MongoDB before starting the server, modified titles a bit." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added instructions to run MongoDB before starting the server, modified titles a bit." />
+    <MESSAGE value="Updated build" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated build" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/docs/doc2.md" />
@@ -698,16 +720,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/website/siteConfig.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="515">
-          <caret line="70" column="12" selection-start-line="70" selection-start-column="12" selection-end-line="70" selection-end-column="12" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/docs/delete-rows.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
@@ -778,16 +790,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/website/build/stein-docs/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-12608" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/website/sidebars.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
           <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/website/build/stein-docs/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-12608" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/website/package.json">
@@ -799,8 +811,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/website/gulpfile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+        <state relative-caret-position="207">
+          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website/siteConfig.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="45" column="24" selection-start-line="45" selection-start-column="24" selection-end-line="45" selection-end-column="24" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
