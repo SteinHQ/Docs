@@ -23,7 +23,7 @@ Here's the updated HTML.
 <!-- Filter blog posts by author name -->
 <!-- Make sure to use double quotes in JSON strings -->
 <div
-  data-stein-url="http://api.steinhq.com/v1/storages/5cc158079ec99a2f484dcb40/Sheet1"
+  data-stein-url="https://api.steinhq.com/v1/storages/5cc158079ec99a2f484dcb40/Sheet1"
   data-stein-search='{"author": "Shiven Sinha"}'
 >
   <div>

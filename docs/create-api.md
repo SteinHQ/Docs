@@ -32,10 +32,10 @@ Start by signing up for [Stein](https://steinhq.com).
 
 After you sign up, you'll be prompted for your sheet's URL. The sheet will be used for creating your first API. Paste the URL to get started with Stein.
 
-The interface will then provide you the URL for your spreadsheet's API, in the format `http://api.steinhq.com/v1/storages/[your-api-id]`. This URL is common for all the sheets in your spreadsheet.
+The interface will then provide you the URL for your spreadsheet's API, in the format `https://api.steinhq.com/v1/storages/[your-api-id]`. This URL is common for all the sheets in your spreadsheet.
 
 :::note Remember to append your sheet's name to access your API
-You need to append the name of the specific sheet you want to access through the Stein API. If you want to access _Sheet1_ from your spreadsheet, your API URL will now be `http://api.steinhq.com/v1/storages/[your-api-id]/Sheet1`
+You need to append the name of the specific sheet you want to access through the Stein API. If you want to access _Sheet1_ from your spreadsheet, your API URL will now be `https://api.steinhq.com/v1/storages/[your-api-id]/Sheet1`
 :::
 
 You can later create more APIs from your dashboard.

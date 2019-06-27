@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="303869e9-417e-4930-99ed-b22145b59e4f" name="Default Changelist" comment="">
+    <list default="true" id="303869e9-417e-4930-99ed-b22145b59e4f" name="Default Changelist" comment="Converted HTTP to HTTPS">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/siteConfig.js" beforeDir="false" afterPath="$PROJECT_DIR$/website/siteConfig.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/static/css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/website/static/css/custom.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/create-api.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/create-api.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/delete-rows.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/delete-rows.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/expedite-connect-forms.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/expedite-connect-forms.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/expedite-display-data.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/expedite-display-data.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/expedite-search-data.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/expedite-search-data.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/update-rows.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/update-rows.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/website/node_modules/" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -21,7 +25,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/website/sidebars.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
+            <state>
               <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
             </state>
           </provider>
@@ -45,14 +49,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/website/siteConfig.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="45" column="24" selection-start-line="45" selection-start-column="24" selection-end-line="45" selection-end-column="24" />
+            <state relative-caret-position="230">
+              <caret line="44" column="47" lean-forward="true" selection-start-line="44" selection-start-column="47" selection-end-line="44" selection-end-column="47" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/website/static/css/custom.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="230" selection-start-line="230" selection-end-line="230" />
             </state>
           </provider>
         </entry>
@@ -61,7 +74,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>docusaurus.svg</find>
       <find>doc1</find>
       <find>docu</find>
       <find>green</find>
@@ -91,12 +103,14 @@
       <find>bash</find>
       <find>NGINX</find>
       <find>algo</find>
+      <find>http://</find>
     </findStrings>
     <replaceStrings>
       <replace>props</replace>
       <replace>introduction</replace>
       <replace>console</replace>
       <replace>```bash</replace>
+      <replace>https://</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -113,7 +127,6 @@
         <option value="$PROJECT_DIR$/docs/doc1.md" />
         <option value="$PROJECT_DIR$/gulpfile.js" />
         <option value="$PROJECT_DIR$/tailwind.js" />
-        <option value="$PROJECT_DIR$/website/static/css/custom.css" />
         <option value="$PROJECT_DIR$/website/static/css/custom.tailwind.css" />
         <option value="$PROJECT_DIR$/website/yarn-error.log" />
         <option value="$PROJECT_DIR$/website/static/custom.tailwind.css" />
@@ -146,6 +159,7 @@
         <option value="$PROJECT_DIR$/docs/self-hosting.md" />
         <option value="$PROJECT_DIR$/website/package.json" />
         <option value="$PROJECT_DIR$/website/siteConfig.js" />
+        <option value="$PROJECT_DIR$/website/static/css/custom.css" />
       </list>
     </option>
   </component>
@@ -174,11 +188,6 @@
             <path>
               <item name="stein-docs" type="b2602c69:ProjectViewProjectNode" />
               <item name="stein-docs" type="462c0819:PsiDirectoryNode" />
-              <item name="docs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="stein-docs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="stein-docs" type="462c0819:PsiDirectoryNode" />
               <item name="website" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -193,6 +202,14 @@
               <item name="website" type="462c0819:PsiDirectoryNode" />
               <item name="build" type="462c0819:PsiDirectoryNode" />
               <item name="stein-docs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="stein-docs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="stein-docs" type="462c0819:PsiDirectoryNode" />
+              <item name="website" type="462c0819:PsiDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+              <item name="stein-docs" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="stein-docs" type="b2602c69:ProjectViewProjectNode" />
@@ -281,7 +298,8 @@
       <workItem from="1558458389757" duration="3349000" />
       <workItem from="1559805060165" duration="13264000" />
       <workItem from="1559887273830" duration="4272000" />
-      <workItem from="1560621487699" duration="1083000" />
+      <workItem from="1560621487699" duration="2391000" />
+      <workItem from="1561635911178" duration="2167000" />
     </task>
     <task id="LOCAL-00001" summary="Created getting started doc files">
       <created>1556093480074</created>
@@ -458,11 +476,18 @@
       <option name="project" value="LOCAL" />
       <updated>1559931910710</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Added Algolia">
+      <created>1560623212114</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1560623212114</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="124016000" />
+    <option name="totallyTimeSpent" value="127491000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -475,12 +500,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" weight="0.119791664" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.15997024" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="1" sideWeight="0.49620637" visible="true" weight="0.32952693" />
+      <window_info anchor="bottom" id="Terminal" order="1" sideWeight="0.49620637" visible="true" weight="0.32952693" />
       <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.5037936" side_tool="true" weight="0.3360927" />
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Run" order="4" />
@@ -524,7 +550,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="Created getting started doc files" />
     <MESSAGE value="Changed docs logo, added 'Introduction &amp; Core Concepts' and 'Hosting' docs" />
     <MESSAGE value="Created 'Create API' docs" />
     <MESSAGE value="Made minor improvements to create-api, and introduction docs, created read-data docs." />
@@ -549,7 +574,8 @@
     <MESSAGE value="Added self-hosting docs" />
     <MESSAGE value="Added instructions to run MongoDB before starting the server, modified titles a bit." />
     <MESSAGE value="Updated build" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated build" />
+    <MESSAGE value="Added Algolia" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Algolia" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/docs/doc2.md" />
@@ -598,13 +624,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/website/static/css/docusaurus-admonitions.css">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/website/static/css/custom.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="47" column="4" selection-start-line="47" selection-start-column="4" selection-end-line="47" selection-end-column="4" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/website/build/stein-docs/index.html">
       <provider selected="true" editor-type-id="text-editor" />
@@ -720,16 +739,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/delete-rows.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="205">
-            <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/docs/add-rows.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
@@ -797,7 +806,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/website/sidebars.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
+        <state>
           <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
         </state>
       </provider>
@@ -816,13 +825,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/docs/delete-rows.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="119">
+            <caret line="32" column="8" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="8" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/website/siteConfig.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="45" column="24" selection-start-line="45" selection-start-column="24" selection-end-line="45" selection-end-column="24" />
+        <state relative-caret-position="230">
+          <caret line="44" column="47" lean-forward="true" selection-start-line="44" selection-start-column="47" selection-end-line="44" selection-end-column="47" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website/static/css/custom.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="230" selection-start-line="230" selection-end-line="230" />
         </state>
       </provider>
     </entry>

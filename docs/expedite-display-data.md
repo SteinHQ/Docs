@@ -22,7 +22,7 @@ The following HTML structure helps us with this.
 ```handlebars
 <!--- Replace the data-stein-url value with your API URL --->
 <div
-  data-stein-url="http://api.steinhq.com/v1/storages/5cc158079ec99a2f484dcb40/Sheet1"
+  data-stein-url="https://api.steinhq.com/v1/storages/5cc158079ec99a2f484dcb40/Sheet1"
   data-stein-limit="2"
 >
   <div>
@@ -37,7 +37,7 @@ The following HTML structure helps us with this.
 ```
 
 :::note Remember to append your sheet's name to access your API
-You need to append the name of the specific sheet you want to access through the Stein API. If you want to access _Sheet1_ from your spreadsheet, your API URL will now be `http://api.steinhq.com/v1/storages/[your-api-id]/Sheet1`
+You need to append the name of the specific sheet you want to access through the Stein API. If you want to access _Sheet1_ from your spreadsheet, your API URL will now be `https://api.steinhq.com/v1/storages/[your-api-id]/Sheet1`
 :::
 
 Plug in some quick styling, and here's what you can easily end up with.

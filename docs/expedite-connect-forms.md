@@ -18,7 +18,7 @@ Here, we create a form to add blog posts to [our Google Sheet](https://docs.goog
 ```html
 <!--- Add post to Google Sheet --->
 <form
-  data-stein-url="http://api.steinhq.com/v1/storages/5cc158079ec99a2f484dcb40/Sheet1"
+  data-stein-url="https://api.steinhq.com/v1/storages/5cc158079ec99a2f484dcb40/Sheet1"
 >
   <!--- Notice that the name attribute is set to the column name -->
   <input placeholder="Title" name="title" />
