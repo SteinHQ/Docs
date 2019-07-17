@@ -86,7 +86,7 @@ The Redirect URI depends on the domain name you plan to host Stein on. If you pl
 
 Stein requires these environment variables (case-sensitive) to be specified on your system.
 
-- **STEIN_PORT** (Optional): Port you wish to run Stein on. Defaults to `3000.
+- **STEIN_PORT** (Optional): Port you wish to run Stein on. Defaults to `3000`.
 - **STEIN_MONGO_URL**: URL where your MongoDB is hosted. When running Mongo locally, the default URL is `mongodb://localhost:27017/stein`
 - **STEIN_CLIENT_SECRET**: Client Secret obtained from generating OAuth credentials from the Google Developer Console
 - **STEIN_CLIENT_ID**: Client ID obtained from generating OAuth credentials from the Google Developer Console
