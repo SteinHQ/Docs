@@ -86,7 +86,7 @@ The Redirect URI depends on the domain name you plan to host Stein on. If you pl
 
 Stein requires these environment variables (case-sensitive) to be specified on your system.
 
-- **STEIN_PORT** (Optional): Port you wish to run Stein on. Defaults to 3000.
+- **STEIN_PORT** (Optional): Port you wish to run Stein on. Defaults to `3000`.
 - **STEIN_MONGO_URL**: URL where your MongoDB is hosted. When running Mongo locally, the default URL is `mongodb://localhost:27017/stein`
 - **STEIN_CLIENT_SECRET**: Client Secret obtained from generating OAuth credentials from the Google Developer Console
 - **STEIN_CLIENT_ID**: Client ID obtained from generating OAuth credentials from the Google Developer Console
@@ -127,10 +127,10 @@ To stop the server, use the script defined earlier.
 $ npm run stein:stop
 ```
 
-On start, an instance of Stein should boot up on the port specified in the environment variable (3000 by default). We're almost done!
+On start, an instance of Stein should boot up on the port specified in the environment variable (`3000` by default). We're almost done!
 
 :::note
-The logs can be found in .log files in the stein-core folder in node_modules
+The logs can be found in .log files in the `stein-core` folder in `node_modules`
 :::
 
 ### 7. Set up Nginx as reverse proxy
