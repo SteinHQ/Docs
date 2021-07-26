@@ -10,8 +10,11 @@ Now that you have installed Expedite on your website, you can display data from 
 3. Add handlebars `{{ }}` with the column name in any of the child elements.
 
 ## Optional parameters
+By default, Expedite ignores handling empty cells. If any row has a column with no value, the handlebars for that entry are left untouched.
 
-You can optionally limit and offset your response by setting the `data-stein-limit` and `data-stein-offset` attributes.
+For example, if a blog post in our example sheet (see below) had no author name defined, then the webpage would show `By {{author}}`. To hide showing the handlebars altogether in such cases, specify the `data-stein-hide-empty` attribute on the element. [Here's](https://github.com/SteinHQ/Expedite/blob/master/example/blog.html#L16) an example doing this.
+
+You can also limit and offset your response by setting the `data-stein-limit` and `data-stein-offset` attributes. More information about these paramters are available [here](read-data.md#optional-request-parameters).
 
 ## Example
 
@@ -37,7 +40,7 @@ Let's display the first two blog post summaries from [this Google Sheet](https:/
 ```
 
 :::note Take special care if you are using Vue!
-Vue.js also uses `{{ }}` (handlebars syntax) to play with data. To avoid conflict, use the `v-pre` attribute on elements that contain Stein related data!
+Vue.js also uses `{{ }}` (handlebars syntax) to play with data. To avoid conflict, use the `v-pre` attribute on elements that contain Stein related data.
 :::
 
 **The following Vue Example should help.**
